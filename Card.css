@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .card{
     display: flex;
@@ -80,4 +81,65 @@
     row-gap: 3px;
     font-size: 13px;
     margin: 7px 0;
+}
+
+.card-list-action{
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+    color: #007185;
+}
+
+.card-list-action hr{
+    height: 20px;
+    width: 1px;
+    background: #cfcfcf;
+}
+
+.card-list-action select{
+    padding: 5px;
+    border-radius: 6px;
+    background: #f3f3f3;
+}
+
+.card-list-subtotal {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card-right{
+    background: white;
+    padding: 20px;
+    max-height: 220px;
+    min-width: 280px;
+}
+
+.card-free-delivery{
+    font-size: 13px;
+    display: flex;
+}
+
+.card-subtotal{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-right-gift{
+    margin: 7px 0;
+}
+
+.card-right button{
+    width: 100%;
+    margin: 15px 0;
+    height: 30px;
+    background: #ffd814;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card-right button:hover{
+    background: #ebc712;
 }
