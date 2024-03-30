@@ -146,3 +146,104 @@ body{
     gap: 10px;
     margin-left: 30px;
 }
+
+.product-d-Purchase{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product-d-Purchase .titale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-d-Purchase .price{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.product-d-Purchase .price span{
+    font-size: 26px;
+    padding: 2px;
+}
+
+.product-d-Purchase .gap{
+    margin: 15px 0;
+}
+
+.product-d-Purchase .gap p span {
+    color: #007185;
+}
+
+.delivery-location{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.product-stock{
+    margin: 15px 0;
+    color: green;
+    font-weight: 400;
+}
+
+.product-quntity{
+    padding: 8px 5px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #efefef;
+    border-color: #c1c1c1;
+}
+
+.product-d-Purchase .btn{
+    outline: none;
+    border: none;
+    background: #ffd814;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.product-d-Purchase .product-bay {
+    background: #ffa41c;
+    cursor: pointer;
+}
+
+.product-seller-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4px;
+    font-size: 14px;
+    color: #565656;
+    margin-top: 10px;
+}
+
+.product-seller-info span{
+    color: #007185;
+}
+
+.product-d-Purchase hr{
+    margin: 20px 0;
+}
+
+.product-add-info{
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: start;
+    background: white;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 100px;
+}
