@@ -1,1 +1,1 @@
-# this is a Amazon Clone Projuct ;
+# Amazon UI Clone Projuct ;
